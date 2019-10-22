@@ -33,17 +33,16 @@ public enum Color {
 
     public static int rnd(int max) {
         rndInd = (int) (Math.random() * ++max);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
+        return max;
     }
 }
 
-class Utils{
-    @Override
-    
-}
+
+
+
+
+
+
 
 
 
